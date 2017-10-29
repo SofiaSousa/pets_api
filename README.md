@@ -1,4 +1,13 @@
-# README
+# Pets Api
+
+This is a sample how quickly setup a Rails Api with tests and documentation automaticaly generated.
+
+## Requirements
+In this sample, I used Ruby 2.4.0 and Rails 5.1.4.
+
+## Tests with Rspec
+
+## Documentation with Rspec 
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
