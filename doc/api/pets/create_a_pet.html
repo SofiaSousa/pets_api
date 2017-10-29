@@ -134,6 +134,14 @@ table th, table td {
                   <span class="description">Pet name</span>
                 </td>
               </tr>
+              <tr>
+                <td class="required">
+                    <span class="name">specie_id</span>
+                </td>
+                <td>
+                  <span class="description">Specie identification</span>
+                </td>
+              </tr>
             </tbody>
           </table>
 
@@ -150,16 +158,27 @@ Cookie: </pre>
 
 
             <h4>Body</h4>
-            <pre class="request body">{"name":"Pichuí"}</pre>
+            <pre class="request body">{"name":"Pichuí","specie_id":11}</pre>
 
 
             <h3>Response</h3>
               <h4>Headers</h4>
-              <pre class="response headers">Cache-Control: no-cache
-X-Request-Id: 0d47af12-ecc5-4f7c-9c46-cabf3bb578d3
-X-Runtime: 0.005774</pre>
+              <pre class="response headers">Content-Type: application/json; charset=utf-8
+ETag: W/&quot;d088e9cd9c6380880a1bd023e7ce5fc8&quot;
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: d7872798-f52e-4488-a6fe-405fa91dbb49
+X-Runtime: 0.006867
+Content-Length: 121</pre>
             <h4>Status</h4>
-            <pre class="response status">204 No Content</pre>
+            <pre class="response status">201 Created</pre>
+              <h4>Body</h4>
+              <pre class="response body">{
+  &quot;id&quot;: 11,
+  &quot;name&quot;: &quot;Pichuí&quot;,
+  &quot;created_at&quot;: &quot;2017-10-29T16:04:01.231Z&quot;,
+  &quot;updated_at&quot;: &quot;2017-10-29T16:04:01.231Z&quot;,
+  &quot;specie_id&quot;: 11
+}</pre>
       </div>
     </div>
   </body>

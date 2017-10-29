@@ -111,12 +111,39 @@ table th, table td {
         <p class="explanation">Little introduction about pet resource</p>
 
       <div class="article">
-        <h2>Get a pet</h2>
-        <h3>GET pets/:id</h3>
+        <h2>Update a pet</h2>
+        <h3>PUT pets/:id</h3>
           <p class="explanation">
-            Get details from a specific pet as name etc
+            Update details from a specific pet as name etc
           </p>
 
+          <h3>Parameters</h3>
+          <table class="parameters table table-striped table-bordered table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                    <span class="name">name</span>
+                </td>
+                <td>
+                  <span class="description">Pet name</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <span class="name">specie_id</span>
+                </td>
+                <td>
+                  <span class="description">Specie identification</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
 
           <h3>Request</h3>
@@ -127,29 +154,20 @@ Host: example.org
 Cookie: </pre>
 
           <h4>Route</h4>
-          <pre class="request route highlight">GET pets/1</pre>
+          <pre class="request route highlight">PUT pets/1</pre>
 
 
+            <h4>Body</h4>
+            <pre class="request body">{"name":"Pichuí II","specie_id":11}</pre>
 
 
             <h3>Response</h3>
               <h4>Headers</h4>
-              <pre class="response headers">Content-Type: application/json; charset=utf-8
-ETag: W/&quot;f2de19731bf7f3f6964b5be51227dd13&quot;
-Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: b220ab09-8fb6-4040-b106-cc463969bfd1
-X-Runtime: 0.003492
-Content-Length: 120</pre>
+              <pre class="response headers">Cache-Control: no-cache
+X-Request-Id: 6daa6914-2aab-44a0-9718-221e4e9c0271
+X-Runtime: 0.004000</pre>
             <h4>Status</h4>
-            <pre class="response status">200 OK</pre>
-              <h4>Body</h4>
-              <pre class="response body">{
-  &quot;id&quot;: 1,
-  &quot;name&quot;: &quot;Raticate&quot;,
-  &quot;created_at&quot;: &quot;2017-10-29T16:04:01.130Z&quot;,
-  &quot;updated_at&quot;: &quot;2017-10-29T16:04:01.130Z&quot;,
-  &quot;specie_id&quot;: 1
-}</pre>
+            <pre class="response status">204 No Content</pre>
       </div>
     </div>
   </body>

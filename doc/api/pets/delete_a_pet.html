@@ -111,10 +111,10 @@ table th, table td {
         <p class="explanation">Little introduction about pet resource</p>
 
       <div class="article">
-        <h2>Get a pet</h2>
-        <h3>GET pets/:id</h3>
+        <h2>Delete a pet</h2>
+        <h3>DELETE pets/:id</h3>
           <p class="explanation">
-            Get details from a specific pet as name etc
+            Delete a pet
           </p>
 
 
@@ -127,29 +127,20 @@ Host: example.org
 Cookie: </pre>
 
           <h4>Route</h4>
-          <pre class="request route highlight">GET pets/1</pre>
+          <pre class="request route highlight">DELETE pets/1</pre>
 
+            <h4>Query Parameters</h4>
+            <pre class="request query_parameters highlight">{}: </pre>
 
 
 
             <h3>Response</h3>
               <h4>Headers</h4>
-              <pre class="response headers">Content-Type: application/json; charset=utf-8
-ETag: W/&quot;f2de19731bf7f3f6964b5be51227dd13&quot;
-Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: b220ab09-8fb6-4040-b106-cc463969bfd1
-X-Runtime: 0.003492
-Content-Length: 120</pre>
+              <pre class="response headers">Cache-Control: no-cache
+X-Request-Id: 2436c5af-91be-46fa-9d7e-d543f4223060
+X-Runtime: 0.005364</pre>
             <h4>Status</h4>
-            <pre class="response status">200 OK</pre>
-              <h4>Body</h4>
-              <pre class="response body">{
-  &quot;id&quot;: 1,
-  &quot;name&quot;: &quot;Raticate&quot;,
-  &quot;created_at&quot;: &quot;2017-10-29T16:04:01.130Z&quot;,
-  &quot;updated_at&quot;: &quot;2017-10-29T16:04:01.130Z&quot;,
-  &quot;specie_id&quot;: 1
-}</pre>
+            <pre class="response status">204 No Content</pre>
       </div>
     </div>
   </body>
