@@ -1,20 +1,20 @@
 {
-  "resource": "Pets",
-  "resource_explanation": "Little introduction about pet resource",
+  "resource": "Species",
+  "resource_explanation": "Little introduction about specie resource",
   "http_method": "PUT",
-  "route": "/pets/:id",
-  "description": "Update a pet",
-  "explanation": "Update details from a specific pet as name etc",
+  "route": "/species/:id",
+  "description": "Update a specie",
+  "explanation": "Update details from a specific specie as name etc",
   "parameters": [
     {
       "Type": "string",
       "name": "name",
-      "description": "Pet name"
+      "description": "Specie name"
     },
     {
-      "Type": "integer",
-      "name": "specie_id",
-      "description": "Specie identification"
+      "Type": "string",
+      "name": "scientific_name",
+      "description": "Specie scientific name"
     }
   ],
   "response_fields": [
@@ -23,8 +23,8 @@
   "requests": [
     {
       "request_method": "PUT",
-      "request_path": "/pets/1",
-      "request_body": "{\"name\":\"Pichuí II\",\"specie_id\":11}",
+      "request_path": "/species/1",
+      "request_body": "{\"name\":\"Cat\",\"scientific_name\":\"Felis silvestris catus\"}",
       "request_headers": {
         "Content-Type": "application/json",
         "Host": "example.org",
@@ -38,8 +38,8 @@
       "response_body": null,
       "response_headers": {
         "Cache-Control": "no-cache",
-        "X-Request-Id": "b0c55299-67ff-4660-8b46-203e375ecf58",
-        "X-Runtime": "0.004152"
+        "X-Request-Id": "3e25e5fc-fac5-40cf-9caf-3352e49db1bc",
+        "X-Runtime": "0.004119"
       },
       "response_content_type": null,
       "curl": null

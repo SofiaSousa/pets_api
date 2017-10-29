@@ -8,21 +8,21 @@
           "description": "Create a pet",
           "link": "pets/create_a_pet.json",
           "groups": "all",
-          "route": "pets",
+          "route": "/pets",
           "method": "post"
         },
         {
           "description": "Delete a pet",
           "link": "pets/delete_a_pet.json",
           "groups": "all",
-          "route": "pets/:id",
+          "route": "/pets/:id",
           "method": "delete"
         },
         {
           "description": "Get a pet",
           "link": "pets/get_a_pet.json",
           "groups": "all",
-          "route": "pets/:id",
+          "route": "/pets/:id",
           "method": "get"
         },
         {
@@ -36,7 +36,48 @@
           "description": "Update a pet",
           "link": "pets/update_a_pet.json",
           "groups": "all",
-          "route": "pets/:id",
+          "route": "/pets/:id",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "name": "Species",
+      "explanation": "Little introduction about specie resource",
+      "examples": [
+        {
+          "description": "Create a specie",
+          "link": "species/create_a_specie.json",
+          "groups": "all",
+          "route": "/species",
+          "method": "post"
+        },
+        {
+          "description": "Delete a specie",
+          "link": "species/delete_a_specie.json",
+          "groups": "all",
+          "route": "/species/:id",
+          "method": "delete"
+        },
+        {
+          "description": "Get a specie",
+          "link": "species/get_a_specie.json",
+          "groups": "all",
+          "route": "/species/:id",
+          "method": "get"
+        },
+        {
+          "description": "Listing species",
+          "link": "species/listing_species.json",
+          "groups": "all",
+          "route": "/species",
+          "method": "get"
+        },
+        {
+          "description": "Update a specie",
+          "link": "species/update_a_specie.json",
+          "groups": "all",
+          "route": "/species/:id",
           "method": "put"
         }
       ]

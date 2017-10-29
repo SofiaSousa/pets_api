@@ -1,0 +1,42 @@
+{
+  "resource": "Species",
+  "resource_explanation": "Little introduction about specie resource",
+  "http_method": "GET",
+  "route": "/species",
+  "description": "Listing species",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/species",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Federico Casper\",\n    \"scientific_name\": \"Sandra Elody Graham\",\n    \"created_at\": \"2017-10-29T16:40:29.006Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.006Z\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Mr. Mollie Romaguera\",\n    \"scientific_name\": \"Johann Joey Jerde Sr.\",\n    \"created_at\": \"2017-10-29T16:40:29.009Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.009Z\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Pansy Paucek\",\n    \"scientific_name\": \"Carol Alysha Kreiger\",\n    \"created_at\": \"2017-10-29T16:40:29.012Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.012Z\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Nora Donnelly V\",\n    \"scientific_name\": \"Turner Skylar Jast\",\n    \"created_at\": \"2017-10-29T16:40:29.014Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.014Z\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Dr. Neva Ritchie\",\n    \"scientific_name\": \"Roberto Haylie Heaney\",\n    \"created_at\": \"2017-10-29T16:40:29.016Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.016Z\"\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Miss Cecilia Wisoky\",\n    \"scientific_name\": \"Danial Sammy Rau\",\n    \"created_at\": \"2017-10-29T16:40:29.018Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.018Z\"\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Leslie Jakubowski\",\n    \"scientific_name\": \"Arnold Clementina Collier\",\n    \"created_at\": \"2017-10-29T16:40:29.021Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.021Z\"\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Reyes Buckridge\",\n    \"scientific_name\": \"Hanna Jaiden Metz\",\n    \"created_at\": \"2017-10-29T16:40:29.023Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.023Z\"\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Miguel Hoppe\",\n    \"scientific_name\": \"Shayna Elise Adams\",\n    \"created_at\": \"2017-10-29T16:40:29.025Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.025Z\"\n  },\n  {\n    \"id\": 10,\n    \"name\": \"Mr. Sarai Breitenberg\",\n    \"scientific_name\": \"Brigitte Jesus Bartoletti III\",\n    \"created_at\": \"2017-10-29T16:40:29.027Z\",\n    \"updated_at\": \"2017-10-29T16:40:29.027Z\"\n  }\n]",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"2b1605592cba8070c10defe0afa8e4ef\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "bea2c280-5e43-476f-8a54-e0b0e2be8498",
+        "X-Runtime": "0.007218",
+        "Content-Length": "1568"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
