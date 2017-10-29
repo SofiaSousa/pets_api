@@ -14,14 +14,15 @@ class PetsController < ApplicationController
 
 	# POST /pets
 	def create
+		puts pet_params.to_json
 		pet = Pet.create!(pet_params)
 		render json: pet, status: :created
 	end
 
 	# PUT /pets/:id
   def update
-    pet = @pet.update!(pet_params)
-		render json: pet, status: :ok
+    @pet.update!(pet_params)
+		head :no_content
   end
 
   # DELETE /pets/:id
@@ -37,7 +38,6 @@ class PetsController < ApplicationController
   end
 
   def get_pet_by_id
-  	@pet = Pet.find(params[:id])
-  	not_found unless @pet
+  	not_found unless @pet = Pet.find_by_id(params[:id])
   end
 end

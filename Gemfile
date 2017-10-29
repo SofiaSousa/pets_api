@@ -42,11 +42,14 @@ group :development do
 end
 
 group :test do 
+  # A library for setting up Ruby objects as test data
+  gem "factory_bot_rails", "~> 4.0"
+  # A library for generating fake data such as names, addresses, and phone numbers.
+  gem 'faker'
+  # Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
+  gem 'simplecov', :require => false
 	# Collection of testing matchers extracted from Shoulda 
 	gem 'shoulda-matchers', '~> 3.1'
-
-	# Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
-	gem 'simplecov', :require => false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
