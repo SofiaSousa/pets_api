@@ -18,3 +18,7 @@
 !/tmp/.keep
 
 .byebug_history
+
+.ruby-version
+.rbenv-gemsets
+
