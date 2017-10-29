@@ -1,0 +1,48 @@
+{
+  "resource": "Pets",
+  "resource_explanation": "Little introduction about pet resource",
+  "http_method": "PUT",
+  "route": "pets/:id",
+  "description": "Update a pet",
+  "explanation": "Update details from a specific pet as name etc",
+  "parameters": [
+    {
+      "Type": "string",
+      "name": "name",
+      "description": "Pet name"
+    },
+    {
+      "Type": "integer",
+      "name": "specie_id",
+      "description": "Specie identification"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PUT",
+      "request_path": "pets/1",
+      "request_body": "{\"name\":\"Pichuí II\",\"specie_id\":11}",
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_headers": {
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "8c047c72-6a55-40a6-aca9-0e5d7209eb6a",
+        "X-Runtime": "0.005175"
+      },
+      "response_content_type": null,
+      "curl": null
+    }
+  ]
+}

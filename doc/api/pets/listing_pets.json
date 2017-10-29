@@ -1,0 +1,42 @@
+{
+  "resource": "Pets",
+  "resource_explanation": "Little introduction about pet resource",
+  "http_method": "GET",
+  "route": "/pets",
+  "description": "Listing pets",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/pets",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Nidorino\",\n    \"created_at\": \"2017-10-29T16:23:26.667Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.667Z\",\n    \"specie_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Machamp\",\n    \"created_at\": \"2017-10-29T16:23:26.672Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.672Z\",\n    \"specie_id\": 2\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Blastoise\",\n    \"created_at\": \"2017-10-29T16:23:26.675Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.675Z\",\n    \"specie_id\": 3\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Graveler\",\n    \"created_at\": \"2017-10-29T16:23:26.682Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.682Z\",\n    \"specie_id\": 4\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Grimer\",\n    \"created_at\": \"2017-10-29T16:23:26.686Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.686Z\",\n    \"specie_id\": 5\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Squirtle\",\n    \"created_at\": \"2017-10-29T16:23:26.689Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.689Z\",\n    \"specie_id\": 6\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Farfetch'd\",\n    \"created_at\": \"2017-10-29T16:23:26.694Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.694Z\",\n    \"specie_id\": 7\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Porygon\",\n    \"created_at\": \"2017-10-29T16:23:26.699Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.699Z\",\n    \"specie_id\": 8\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Caterpie\",\n    \"created_at\": \"2017-10-29T16:23:26.704Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.704Z\",\n    \"specie_id\": 9\n  },\n  {\n    \"id\": 10,\n    \"name\": \"Dragonair\",\n    \"created_at\": \"2017-10-29T16:23:26.708Z\",\n    \"updated_at\": \"2017-10-29T16:23:26.708Z\",\n    \"specie_id\": 10\n  }\n]",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"3b35bf4e5b9c39d19f4f2f65479eefba\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "7fcfc702-9cd6-4bbf-9c78-ffeb325e668b",
+        "X-Runtime": "0.009208",
+        "Content-Length": "1213"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
