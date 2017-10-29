@@ -26,8 +26,14 @@ gem 'puma', '~> 3.7'
 # gem 'rack-cors'
 
 group :development, :test do
+  # An API documentation reader for RSpec API Documentation
+  gem "apitome"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # rspec-rails is a testing framework for Rails 3.x, 4.x and 5.0.
+  gem 'rspec-rails', '~> 3.6'
+  # Automatically generate API documentation from RSpec
+  gem 'rspec_api_documentation'
 end
 
 group :development do
@@ -35,6 +41,17 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do 
+  # A library for setting up Ruby objects as test data
+  gem "factory_bot_rails", "~> 4.0"
+  # A library for generating fake data such as names, addresses, and phone numbers.
+  gem 'faker'
+  # Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
+  gem 'simplecov', :require => false
+	# Collection of testing matchers extracted from Shoulda 
+	gem 'shoulda-matchers', '~> 3.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -1,0 +1,42 @@
+{
+  "resource": "Species",
+  "resource_explanation": "Little introduction about specie resource",
+  "http_method": "GET",
+  "route": "/species/:id",
+  "description": "Get a specie",
+  "explanation": "Get details from a specific specie as name etc",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/species/1",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Sebastian Heller\",\n  \"scientific_name\": \"Joseph Oleta Towne\",\n  \"created_at\": \"2017-10-29T16:40:29.044Z\",\n  \"updated_at\": \"2017-10-29T16:40:29.044Z\"\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"a784ccd5abbf81afea0b6e1e87c435e7\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "81346042-550b-4b33-80aa-f7b609b642bb",
+        "X-Runtime": "0.003083",
+        "Content-Length": "153"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

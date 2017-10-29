@@ -22,3 +22,5 @@
 .ruby-version
 .rbenv-gemsets
 
+# coverage files
+/coverage/*

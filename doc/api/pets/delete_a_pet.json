@@ -1,0 +1,40 @@
+{
+  "resource": "Pets",
+  "resource_explanation": "Little introduction about pet resource",
+  "http_method": "DELETE",
+  "route": "/pets/:id",
+  "description": "Delete a pet",
+  "explanation": "Delete a pet",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/pets/1",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "{}": null
+      },
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_headers": {
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "b58f4b4a-8b38-4611-8fd0-605d33301761",
+        "X-Runtime": "0.003127"
+      },
+      "response_content_type": null,
+      "curl": null
+    }
+  ]
+}

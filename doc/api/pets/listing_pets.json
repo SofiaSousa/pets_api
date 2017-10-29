@@ -1,0 +1,42 @@
+{
+  "resource": "Pets",
+  "resource_explanation": "Little introduction about pet resource",
+  "http_method": "GET",
+  "route": "/pets",
+  "description": "Listing pets",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/pets",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"id\": 1,\n    \"name\": \"Golem\",\n    \"created_at\": \"2017-10-29T16:40:28.656Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.656Z\",\n    \"specie_id\": 1\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Diglett\",\n    \"created_at\": \"2017-10-29T16:40:28.664Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.664Z\",\n    \"specie_id\": 2\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Hitmonchan\",\n    \"created_at\": \"2017-10-29T16:40:28.669Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.669Z\",\n    \"specie_id\": 3\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Seaking\",\n    \"created_at\": \"2017-10-29T16:40:28.672Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.672Z\",\n    \"specie_id\": 4\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Ekans\",\n    \"created_at\": \"2017-10-29T16:40:28.676Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.676Z\",\n    \"specie_id\": 5\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Charmander\",\n    \"created_at\": \"2017-10-29T16:40:28.679Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.679Z\",\n    \"specie_id\": 6\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Mr. Mime\",\n    \"created_at\": \"2017-10-29T16:40:28.682Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.682Z\",\n    \"specie_id\": 7\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Clefairy\",\n    \"created_at\": \"2017-10-29T16:40:28.685Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.685Z\",\n    \"specie_id\": 8\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Dragonair\",\n    \"created_at\": \"2017-10-29T16:40:28.689Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.689Z\",\n    \"specie_id\": 9\n  },\n  {\n    \"id\": 10,\n    \"name\": \"Pidgeot\",\n    \"created_at\": \"2017-10-29T16:40:28.692Z\",\n    \"updated_at\": \"2017-10-29T16:40:28.692Z\",\n    \"specie_id\": 10\n  }\n]",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"cd44afbf040b8e4beac92b4ea6c66469\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "f740f772-434c-4f29-a5f3-d3f5a9f363f2",
+        "X-Runtime": "0.012618",
+        "Content-Length": "1209"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "resource": "Species",
+  "resource_explanation": "Little introduction about specie resource",
+  "http_method": "DELETE",
+  "route": "/species/:id",
+  "description": "Delete a specie",
+  "explanation": "Delete a specie",
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/species/1",
+      "request_body": null,
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "{}": null
+      },
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_headers": {
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "90788771-48ef-4a9e-a93d-eec482965841",
+        "X-Runtime": "0.010524"
+      },
+      "response_content_type": null,
+      "curl": null
+    }
+  ]
+}
