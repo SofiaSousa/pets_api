@@ -1,11 +1,43 @@
 class PetsController < ApplicationController
+	before_action :get_pet_by_id, only: [:show, :update, :destroy]
+
+	# GET /pets
 	def index
+		pets = Pet.all
+		render json: pets, status: :ok
 	end
 
+  # GET /pets/:id
 	def show
+		render json: @pet, status: :ok
 	end
 
+	# POST /pets
 	def create
-		Pet.create(:name => 'Pichuí')
+		pet = Pet.create!(pet_params)
+		render json: pet, status: :created
 	end
+
+	# PUT /pets/:id
+  def update
+    pet = @pet.update!(pet_params)
+		render json: pet, status: :ok
+  end
+
+  # DELETE /pets/:id
+  def destroy
+    @pet.destroy
+    head :no_content
+  end
+
+	private
+	def pet_params
+    # whitelist params
+    params.permit(:name, :specie_id)
+  end
+
+  def get_pet_by_id
+  	@pet = Pet.find(params[:id])
+  	not_found unless @pet
+  end
 end

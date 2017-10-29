@@ -1,10 +1,6 @@
 require 'simplecov'
 SimpleCov.start 'rails'
 
-SimpleCov.at_exit do
-  pp SimpleCov.result.original_result
-end
-
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
