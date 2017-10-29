@@ -111,9 +111,31 @@ table th, table td {
         <p class="explanation">Little introduction about pet resource</p>
 
       <div class="article">
-        <h2>Listing pets</h2>
-        <h3>GET /pets</h3>
+        <h2>Create a pet</h2>
+        <h3>POST pets</h3>
+          <p class="explanation">
+            Create a new pet
+          </p>
 
+          <h3>Parameters</h3>
+          <table class="parameters table table-striped table-bordered table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="required">
+                    <span class="name">name</span>
+                </td>
+                <td>
+                  <span class="description">Pet name</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
 
           <h3>Request</h3>
@@ -124,16 +146,18 @@ Host: example.org
 Cookie: </pre>
 
           <h4>Route</h4>
-          <pre class="request route highlight">GET /pets</pre>
+          <pre class="request route highlight">POST pets</pre>
 
 
+            <h4>Body</h4>
+            <pre class="request body">{"name":"Pichuí"}</pre>
 
 
             <h3>Response</h3>
               <h4>Headers</h4>
               <pre class="response headers">Cache-Control: no-cache
-X-Request-Id: dee4cbed-c74d-4611-ae55-1289ad49a662
-X-Runtime: 0.014876</pre>
+X-Request-Id: 0d47af12-ecc5-4f7c-9c46-cabf3bb578d3
+X-Runtime: 0.005774</pre>
             <h4>Status</h4>
             <pre class="response status">204 No Content</pre>
       </div>

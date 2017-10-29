@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>API Documentation</title>
-  <meta charset="utf-8">
-  <style>
-    
+  <head>
+    <title>Pets API</title>
+    <meta charset="utf-8">
+    <style>
+      
 body {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 13px;
@@ -39,7 +39,7 @@ pre {
 
 td.required .name:after {
   float: right;
-  content: &quot;required&quot;;
+  content: "required";
   font-weight: normal;
   color: #F08080;
 }
@@ -102,29 +102,44 @@ table th, table td {
   text-align: left;
 }
 
-  </style>
-</head>
-<body>
-<div class="container">
-  <h1>API Documentation</h1>
-  
-  <div class="article">
-    <h2>Pets</h2>
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pets API</h1>
 
-      <p class="explanation">Little introduction about pet resource</p>
+        <p class="explanation">Little introduction about pet resource</p>
 
-    <ul>
-      <li>
-        <a href="pets/create_a_pet.html">Create a pet</a>
-      </li>
-      <li>
-        <a href="pets/get_a_pet.html">Get a pet</a>
-      </li>
-      <li>
-        <a href="pets/listing_pets.html">Listing pets</a>
-      </li>
-    </ul>
-  </div>
-</div>
-</body>
+      <div class="article">
+        <h2>Get a pet</h2>
+        <h3>GET pets/:id</h3>
+          <p class="explanation">
+            Get details from a specific pet as name etc
+          </p>
+
+
+
+          <h3>Request</h3>
+
+            <h4>Headers</h4>
+            <pre class="request headers">Content-Type: application/json
+Host: example.org
+Cookie: </pre>
+
+          <h4>Route</h4>
+          <pre class="request route highlight">GET pets/%3Aid</pre>
+
+
+
+
+            <h3>Response</h3>
+              <h4>Headers</h4>
+              <pre class="response headers">Cache-Control: no-cache
+X-Request-Id: 9325893d-145c-482b-b792-c1a0dfff9ad1
+X-Runtime: 0.000855</pre>
+            <h4>Status</h4>
+            <pre class="response status">204 No Content</pre>
+      </div>
+    </div>
+  </body>
 </html>
