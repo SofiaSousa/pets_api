@@ -30,6 +30,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # rspec-rails is a testing framework for Rails 3.x, 4.x and 5.0.
   gem 'rspec-rails', '~> 3.6'
+  # Automatically generate API documentation from RSpec
+  gem 'rspec_api_documentation'
 end
 
 group :development do
