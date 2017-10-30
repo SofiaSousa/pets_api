@@ -37,13 +37,13 @@
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 11,\n  \"name\": \"Pichuí\",\n  \"created_at\": \"2017-10-29T16:40:28.832Z\",\n  \"updated_at\": \"2017-10-29T16:40:28.832Z\",\n  \"specie_id\": 11\n}",
+      "response_body": "{\n  \"id\": 11,\n  \"name\": \"Pichuí\",\n  \"created_at\": \"2017-10-30T22:08:37.315Z\",\n  \"updated_at\": \"2017-10-30T22:08:37.315Z\",\n  \"specie_id\": 11\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a9f4d7f5d9479abaed474623363de2a0\"",
+        "ETag": "W/\"c533176c2f0fc5735f23646f945219e3\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "16f7557a-bead-4e91-8a10-9143ee1127cc",
-        "X-Runtime": "0.008020",
+        "X-Request-Id": "98040904-17a8-438d-8640-68c83e60e3ec",
+        "X-Runtime": "0.007170",
         "Content-Length": "121"
       },
       "response_content_type": "application/json; charset=utf-8",
