@@ -26,14 +26,14 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Sebastian Heller\",\n  \"scientific_name\": \"Joseph Oleta Towne\",\n  \"created_at\": \"2017-10-29T16:40:29.044Z\",\n  \"updated_at\": \"2017-10-29T16:40:29.044Z\"\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Evalyn Ledner\",\n  \"scientific_name\": \"Sydnee Norval Murray\",\n  \"created_at\": \"2017-10-30T22:08:37.534Z\",\n  \"updated_at\": \"2017-10-30T22:08:37.534Z\"\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a784ccd5abbf81afea0b6e1e87c435e7\"",
+        "ETag": "W/\"772462e80caa58130b0560a42b3a10bc\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "81346042-550b-4b33-80aa-f7b609b642bb",
-        "X-Runtime": "0.003083",
-        "Content-Length": "153"
+        "X-Request-Id": "b9185cb8-e2cd-4afb-8491-aaf58f9c1299",
+        "X-Runtime": "0.002588",
+        "Content-Length": "152"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

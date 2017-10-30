@@ -26,14 +26,14 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Dratini\",\n  \"created_at\": \"2017-10-29T16:40:28.724Z\",\n  \"updated_at\": \"2017-10-29T16:40:28.724Z\",\n  \"specie_id\": 1\n}",
+      "response_body": "{\n  \"id\": 1,\n  \"name\": \"Gyarados\",\n  \"created_at\": \"2017-10-30T22:08:37.211Z\",\n  \"updated_at\": \"2017-10-30T22:08:37.211Z\",\n  \"specie_id\": 1\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"f5e7a0d893dfd2d203af3a50b38f1d53\"",
+        "ETag": "W/\"1d4c4d5eea0492abc478bde5e839f650\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "af6aeec3-d563-46c8-9f8e-56bfa39f412f",
-        "X-Runtime": "0.006917",
-        "Content-Length": "119"
+        "X-Request-Id": "61c3955f-9906-4d10-a2ab-2c040f974e4c",
+        "X-Runtime": "0.003572",
+        "Content-Length": "120"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null
